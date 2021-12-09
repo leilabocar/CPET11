@@ -67,24 +67,11 @@ body {
     font-size: 16px;
     border-radius: 12px;
     padding: 8px 25px;
-    text-decoration: none;
-}
-.button1:hover {
-    background-color: #4CAF50;
-    /* Green */
-    color: white;
-}
-.button2 {
-    transition-duration: 0.4s;
-    margin-left: 10px;
-    font-size: 16px;
-    border-radius: 12px;
-    padding: 8px 25px;
     margin-right: 20px;
     text-decoration: none;
 }
 
-.button2:hover {
+.button1:hover {
     background-color: #4CAF50;
     /* Green */
     color: white;
