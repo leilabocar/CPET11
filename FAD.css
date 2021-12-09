@@ -1,71 +1,72 @@
 *{
-    margin-left: 5px;
-    margin-right: 5px;
-    padding: 0;
-    font-family: Cambria;
-    font-size: 18px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0;
+  font-family: Cambria;
+  font-size: 18px;
 
 }
 body {
-    background-image: url(Booksglass.jpg);
-    height: auto;
-    background-size: cover;
-    background-position: center;
+  background-image: url(bg.jpg);
+  height: auto;
+  background-size: cover;
+  background-position: center center;
+  
 }
 .table {
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 400px;
-    border-radius: 5px 5px 0 0;
-    margin-bottom: 20px;
-    position: relative;
-  }
-  
-  .table thead tr {
-    background-color: #009879;
-    color: #ffffff;
-    text-align: left;
-    font-weight: bold; 
-  }
-  .table tbody tr {
-    background-color: rgb(1, 56, 47);
-    border-bottom: 1px solid #dddddd;
-  }
-  
-  .table tbody tr:last-of-type {
-    border-bottom: 2px solid #009879;
-  }
-  
-  .table tbody tr.active-row {
-    font-weight: bold;
-    color: #009879;
-  }
-  .btn{
-    position: sticky;
-    margin-right: 10px;
-  }
-  .logo{
-    height: 50px;
-    width: 50px;
-    border-radius: 24px 24px 24px 24px;
-  }
-  .container-fluid {
-    font-family: Roboto, sans-serif;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold; 
+}
+.table tbody tr {
+  background-color: rgb(1, 56, 47);
+  border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+.btn{
+  position: sticky;
+  margin-right: 10px;
+}
+.logo{
+  height: 50px;
+  width: 50px;
+  border-radius: 24px 24px 24px 24px;
+}
+
+.row{
+  color: black;
+  font-weight: bold;
+}
+.Quarter{
+  color: chartreuse;
+}
+.col-sm-4{
+  font-family: Roboto, sans-serif;
     background-image: url(https://image.freepik.com/free-vector/dark-blue-blurred-background_1034-589.jpg);
     border-style: 1px solid grey;
-    margin-bottom: 10px;
     text-align: justify;
     opacity: 0.9;
-    box-shadow: 2px 5px 5px 0px #eee;
     max-width: auto;
-    height: 400px;
-    margin-top: 20px;
-}
-.col-xs-6{
-    color: #dddddd;
-    margin-top: 40px;
-}
-.col-xs-4{
-    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
 }

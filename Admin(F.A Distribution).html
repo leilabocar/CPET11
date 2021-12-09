@@ -13,10 +13,9 @@
     <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
     <a class="navbar-brand" href="#"><img class="logo" src="SchoolLogo.jpg">Distribution of Financial Assistance</a>
     </nav>
-    <div class="container-fluid">
-        <div class="col-xl-11">
+    <div class="container-fluid"><Br>
             <div class="row">
-                <div style="overflow-x:auto;">
+                <div style="overflow-x:auto;" class="col-sm-7">
                     <table class="table table-bordered table-dark table-hover">
                 <thead>
                     <th>Approved Students</th>
@@ -56,7 +55,7 @@
                                         <td></td>
                                         <td></td>
                                         <td></td>
-                                  
+                                
                                     </tr>
                                         <tr>
                                             <td></td>
@@ -64,24 +63,21 @@
                                             <td></td>
                                             <td></td>
                                             <td></td>
-                                          
+                                        
                                         </tr>
                                         
                     </tbody>
-                  </table>
-                  
+                </table>
+                
                 </div>
-                <div class="col-xs-6">
-                    <label class="Quarter"> Student :</label><br><br>
-                    <label class="Quarter"> LRN :</label><br><br>
-                    <label class="Quarter"> Grade :</label><br><br>
-                    <label class="Quarter"> Section :</label><br><br>
-                    <label class="Quarter"> Assistance Amount :</label><br><br>
-
-                </div>
-                <div class="col-xs-4">
-                    <input type="text" class="form-control-sm float-sm-right" id="usr"><br><br>
-                    <input type="text" class="form-control-sm float-sm-right" id="usr"><br><br>
+                <div class="col-sm-4">
+                    <label class="Quarter"> Student :</label>
+                    <input type="text" class="form-control-sm float-sm-right" id="usr">
+                    <br><br>
+                    <label class="Quarter"> LRN :</label>
+                    <input type="text" class="form-control-sm float-sm-right" id="usr">
+                    <br><br>
+                    <label class="Quarter"> Grade :</label>
                     <select name="grade" id="grade" class="form-control">
                         <option value="" disabled selected hidden>Grade</option>
                         <option value="1">1</option>
@@ -90,8 +86,9 @@
                         <option value="4">4</option>
                         <option value="5">5</option>
                         <option value="6">6</option>
-                      </select><br><br>
-                      <select name="section" id="section" class="form-control">
+                      </select>
+                    <label class="Quarter"> Section :</label>
+                    <select name="section" id="section" class="form-control">
                         <option value="" disabled selected hidden>Section</option>
                         <option value="1">Mango</option>
                         <option value="2">Grapes</option>
@@ -99,21 +96,23 @@
                         <option value="4">Melon</option>
                         <option value="5">Apple</option>
                         <option value="6">Berry</option>
-                      </select><br><br>
-                      <select name="Quarter" id="Quarter" class="form-control">
+                      </select>
+                    <label class="Quarter"> Assistance Amount :</label>
+                    <select name="Quarter" id="Quarter" class="form-control">
                         <option value="" disabled selected hidden>Amount</option>
                         <option value="1">1000</option>
                         <option value="2">2000</option>
                         <option value="3">3000</option>
-                      </select><br><br>
+                      </select>
+
                 </div>
-                
             </div>
+
         </div>
-    </div>
-    <div class="container">
+    </div>  
+    <div class="container-fluid">
         <a href="#" class="btn btn-primary btn-hover" role="button">Back</a>
         <button type="button" class="btn btn-success float-sm-right">Save</button>
-      </div>
+    </div>
 </body>
 </html>
