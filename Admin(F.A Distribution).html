@@ -2,17 +2,47 @@
 <html>
 <head>
   <title>Admin(F.A Distribution)</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="admin.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="FAD.css">
+
+  <style>
+        ul.topnav {
+                  list-style-type: none;
+                  margin: 0;
+                  overflow: hidden;
+                  background-color: blanchedalmond;
+                }
+
+                ul.topnav li {float: left;}
+
+                ul.topnav li a {
+                  display: block;
+                  color: white;
+                  text-align: center;
+                  padding: 4px 4px;
+                  text-decoration: none;
+                }
+
+                ul.topnav li a:hover:not(.active) {background-color: #111;}
+                ul.topnav li.right {float: right; }
+
+                @media screen and (max-width: 100px) {
+                  ul.topnav li.right, 
+                  ul.topnav li {float: none;}
+                }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-    <a class="navbar-brand" href="#"><img class="logo" src="SchoolLogo.jpg">Distribution of Financial Assistance</a>
-    </nav>
+    <ul class="topnav">
+      <li><a><img class="logo" src="logo.png"></a></li>
+      <li><a style="pointer-events: none"><p style="font-size: 28px;">Distribution of Financial Assistance</p></a></li>
+    </ul>
+
+    
     <div class="container-fluid"><Br>
             <div class="row">
                 <div style="overflow-x:auto;" class="col-sm-7">
@@ -104,6 +134,8 @@
                         <option value="2">2000</option>
                         <option value="3">3000</option>
                       </select>
+                    <br>
+                    <button type="button" class="btn btn-success float-sm-right">Save</button>
 
                 </div>
             </div>
@@ -111,8 +143,8 @@
         </div>
     </div>  
     <div class="container-fluid">
-        <a href="#" class="btn btn-primary btn-hover" role="button">Back</a>
-        <button type="button" class="btn btn-success float-sm-right">Save</button>
+        <a href="Admin(Financial Assistance).html" class="btn btn-primary btn-hover" role="button">Back</a>
+        
     </div>
 </body>
 </html>
