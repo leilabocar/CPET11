@@ -5,13 +5,14 @@ body {
     background-position: center;
     margin: 0;
 }
+
 .table {
-  margin-top: 40px;
-  margin-left: auto;
+  margin-top: auto;
+  margin-left: 40px;
   margin-right: auto;
-  min-width: 400px;
+  min-width: auto;
   border-radius: 5px 5px 0 0;
-  margin-bottom: 20px;
+  margin-bottom: auto;
   position: relative;
 }
 
@@ -39,7 +40,27 @@ body {
   margin-right: 10px;
 }
 .logo{
-  height: 50px;
-  width: 50px;
-  border-radius: 24px 24px 24px 24px;
+  height: 60px;
+  padding: 1px 0px;
+}
+
+.row{
+  color: black;
+  font-weight: bold;
+}
+.Quarter{
+  color: lightcyan;
+}
+.col-sm-4{
+    font-family: Roboto, sans-serif;
+    background-image: url(https://image.freepik.com/free-vector/dark-blue-blurred-background_1034-589.jpg);
+    border-style: 1px solid grey;
+    text-align: justify;
+    opacity: 0.9;
+    max-width: 1000px;
+    margin-left: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+
 }

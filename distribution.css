@@ -1,5 +1,5 @@
 body {
-    background-image: url(learning.jpg);
+    background-image: url(learning.jpeg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -38,7 +38,6 @@ body {
     margin-top: 200px;
     margin-right: 510px;
     transition: background-color 1.15s ease-in-out, border-color 1.15s ease-in-out, box-shadow 1.15s ease-in-out;
-    text-decoration: none;
 }
 .Quarter {
     color: white;
